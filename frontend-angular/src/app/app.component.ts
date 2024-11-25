@@ -1,22 +1,39 @@
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FormGroup, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { RouterOutlet } from '@angular/router';
 import { Contact } from '../models/contact.model';
-import { AsyncPipe } from '@angular/common';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HttpClientModule, AsyncPipe],
+  standalone: true, 
+  imports: [
+    CommonModule,
+    FormsModule, 
+    ReactiveFormsModule, 
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'], 
 })
 export class AppComponent {
   http = inject(HttpClient);
 
+  contactForm = new FormGroup({
+    name: new FormControl<string>(''),
+    email: new FormControl<string | null>(null), // Corrected default value type
+    phone: new FormControl<string>(''),
+    favorite: new FormControl<boolean>(false),
+  });
+
   contacts$ = this.getContacts();
 
+  onFormSubmit() {
+    console.log(this.contactForm.value);
+  }
+
   private getContacts(): Observable<Contact[]> {
-    return this.http.get<Contact[]>('http://localhost:5128/api/Contacts')
+    return this.http.get<Contact[]>('http://localhost:5128/api/Contacts');
   }
 }
