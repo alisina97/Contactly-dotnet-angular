@@ -29,6 +29,16 @@ export class AppComponent {
 
   contacts$ = this.getContacts();
 
+  onDelete(id: string) {
+    this.http.delete(`http://localhost:5128/api/Contacts/${id}`)
+    .subscribe({
+      next: (value)=> {
+        alert("Contact deleted")
+        this.contacts$= this.getContacts();
+      }
+    })
+  }
+
   onFormSubmit() {
     const addContactRequest = {
       name: this.contactForm.value.name,
@@ -45,6 +55,7 @@ export class AppComponent {
         this.contactForm.reset;
       }
     })
+    
   }
 
   private getContacts(): Observable<Contact[]> {
