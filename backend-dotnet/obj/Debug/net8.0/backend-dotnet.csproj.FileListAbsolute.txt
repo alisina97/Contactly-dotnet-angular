@@ -32,3 +32,15 @@
 /Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/obj/Debug/net8.0/backend-dotnet.pdb
 /Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/obj/Debug/net8.0/backend-dotnet.genruntimeconfig.cache
 /Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/obj/Debug/net8.0/ref/backend-dotnet.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/LAUser/Documents/Practice Projects/Contactly-dotnet-angular/backend-dotnet/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
