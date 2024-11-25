@@ -30,7 +30,21 @@ export class AppComponent {
   contacts$ = this.getContacts();
 
   onFormSubmit() {
-    console.log(this.contactForm.value);
+    const addContactRequest = {
+      name: this.contactForm.value.name,
+      email: this.contactForm.value.email,
+      phone: this.contactForm.value.phone,
+      favorite: this.contactForm.value.favorite,
+    }
+
+    this.http.post('http://localhost:5128/api/Contacts', addContactRequest)
+    .subscribe({
+      next: (value)=> {
+        console.log(value);
+        this.contacts$= this.getContacts();
+        this.contactForm.reset;
+      }
+    })
   }
 
   private getContacts(): Observable<Contact[]> {
