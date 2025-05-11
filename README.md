@@ -1,7 +1,7 @@
 # Contactly-dotnet-angular
 A modern contact management app built with .NET and Angular, designed for efficient organization and interaction with personal or professional contacts. Features include contact grouping, search, and a responsive UI.
 ## Features
-- **Contact Management**: Add, edit, and delete contacts with ease.
+- **Contact Management**: Add, edit, and easily delete contacts.
 - **Grouping**: Organize contacts into customizable groups.
 - **Search Functionality**: Quickly find contacts using the search bar.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
