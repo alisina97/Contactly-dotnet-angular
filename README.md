@@ -5,6 +5,7 @@ A modern contact management app built with .NET and Angular, designed for effici
 - **Grouping**: Organize contacts into customizable groups.
 - **Search Functionality**: Quickly find contacts using the search bar.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Activity Logging**: Track and view the history of interactions with your contacts.
 - **Fast Response**: Quick search within a database.
 
 ## Prerequisites
